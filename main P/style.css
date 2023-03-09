@@ -1,0 +1,439 @@
+ *{
+    box-sizing: border-box;
+ }
+ html{
+    height: 250%;
+}
+body{
+    display: grid;
+    align-content: start;
+    background-color: rgb(206, 209, 212);
+    height: 150%;
+    margin:auto;
+}
+.sidebar{
+    display: flex;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    border-color: bisque;
+    border-style:ridge;
+    border-width: 3px;
+    border-radius: 4px;
+    
+
+}
+.butt2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 50px;
+    background-color: white;
+    height: 100%;
+    border-width: 0;
+
+}
+.butt2:hover{
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 100%;
+    height: 10vh;
+    background-color:rgb(43, 42, 42)
+}
+.icon{
+    height: 35px;
+    width: 35px;
+}
+.fam{
+    background-color: rgb(206, 209, 212);;
+    margin-left: 30px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    
+   
+
+}
+.famB{
+    font-size:xx-large;
+    color: white;
+    margin: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(43, 42, 42)
+};
+
+.none{
+    width: 10px;
+    height: 10px;
+}
+.butt{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+}
+
+
+.bdp{
+    margin:50px 0px 0px 20px;
+}
+a{  
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+    text-decoration: none;
+}
+.Despre {
+    
+    margin-top: 15px;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+    cursor: pointer;
+
+   
+}
+
+ 
+.Despre:hover{
+    text-decoration: underline;
+}
+
+
+  
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    background-image: url(pexels-chanita-sykes-1094544.jpg) ;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 850px;
+    
+    
+}
+.farmer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    background-color: rgb(255, 255, 255,0.4);
+
+}
+.far{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 80px;
+}
+.desc{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    background-color: rgb(255, 255, 255,0.4);
+    
+}
+.desc-1{
+    font-style:oblique;
+    font-size: 300%;
+    font-weight: bolder;
+    transition: 1s;
+}
+.desc-1:hover{
+    transform: scale(1.1);
+}
+.inscrie-1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.inscrie-1 button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    width: 16rem;
+    height: 5rem;
+    color: white;
+    background-color: black;
+    border-style: inset;
+    border-width: 3px;
+    border-color:white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor:pointer;
+    transition: 1s;
+}
+.inscrie-1 button:hover{
+    transform: scale(1.1);
+}
+.container3{
+    display: grid;
+    align-content: space-around;
+    width: 100%;
+    height: 800px;
+    background-color: azure;
+    
+}
+.produse-1{
+    display: grid;
+    align-content: center;
+}
+.produse-1 h1{
+    display: grid;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.capsune{
+    display: grid;
+    align-content: center;
+    grid-template-columns:1fr 1fr 1fr; 
+    border-width: 2px;
+    border-style: outset;
+    border-color: rgb(159, 239, 239);
+}
+.capsune div{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.capsune-1{
+    width: 200px;
+    height: 200px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: bisque;
+    border-radius: 50%;
+}
+.capsune button{
+    width: 140px;
+    height: 50px;
+    color: black;
+    font-size:large;
+    background-color: azure;
+    border-width: 1px;
+    border-style: outset;
+    border-radius: 10px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    
+
+}
+.container4{
+    height: auto;
+    background-color: azure;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    
+}
+.con3-1{
+    display: grid;
+    height: 100px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    justify-content: center;
+    align-content: center;
+}
+.con3{
+    height: 700px;
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr 1fr 1fr;
+    justify-content: center;
+    border-style: outset;
+    border-width: 0px;
+    transition: 1s;
+    
+    
+}
+
+.con3 p{
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: x-large;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con3-1 p{
+    display: grid;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.capsune-2 {
+    width: 200px;
+    height: 200px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: bisque;
+    border-radius: 50%;
+}
+.con3-2{
+    display: grid;
+    justify-content: center;
+    
+}
+.con3 button{
+    width: 140px;
+    height: 50px;
+    color: black;
+    font-size:large;
+    background-color: azure;
+    border-width: 1px;
+    border-style: outset;
+    border-radius: 10px;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    
+}
+.con3:hover{
+    transform: scale(1.1);
+    border-color: black;
+}
+
+.con3-3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.descvin1 p {
+    margin-left: 95px;
+    width: 70%;
+    font-size:x-large;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.descvin1{
+    display: grid;
+    align-items: center;
+   
+}
+.container6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+}
+.con{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.con-1{
+    display: grid;
+    align-content: center;}
+
+
+.container5{
+    display: grid;
+    height: 700px;
+    grid-template-rows: 0.2fr 1.8fr;
+}
+.form-0{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-left: 95px;
+    width: 70%;
+    font-size:x-large;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+    
+    
+    label{
+        height:50px ;
+        width: 100%;
+
+    }
+    .form{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .form-1{
+        margin-left: 170px;
+        width: 60%;
+    }
+    input{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+    
+    select{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+    
+    textarea{
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    
+
+
+
+
+
+
+
+ 
+
+
